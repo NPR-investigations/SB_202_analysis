@@ -23,4 +23,9 @@ for batch in addrbatch:
 
 We also used R's census geocoder for some of the addresses at one point. <br>
 
-Fast forward to late May of 2022, the voter registration window for the primary closed, so we purchased the latest [voter rolls from Georgia Secretary of State](https://sos.ga.gov/page/order-voter-registration-lists-and-files), and stitched it together with the old addresses. Turns out that most addresses have been geocoded and we were able to geocode the rest relatively quickly. The notebook that does the stitching is [here](https://github.com/NPR-investigations/SB_202_analysis/blob/main/20220503_geocoding_current_voter_file_fill_null.ipynb)
+Fast forward to late May of 2022, the voter registration window for the primary closed, so we purchased the latest [voter rolls from Georgia Secretary of State](https://sos.ga.gov/page/order-voter-registration-lists-and-files), and stitched it together with the old addresses. Turns out that most addresses have been geocoded and we were able to geocode the rest relatively quickly. The notebook that does this stitching is [here](https://github.com/NPR-investigations/SB_202_analysis/blob/main/20220503_geocoding_current_voter_file_fill_null.ipynb)<br>
+
+And then we incorporated Geocodio and ArcGIS results in [this notebook](https://github.com/NPR-investigations/SB_202_analysis/blob/main/20220512_SB_202_voter_address_cleanup.ipynb)
+
+### about geocoding drop box addresses
+We initially only have the 2021 runoff addresses, and then we got the May addresses and got the Nov 2020 addresses through reviewing ballot transfer forms. [This notebook](https://github.com/NPR-investigations/SB_202_analysis/blob/main/20220519_clean_2022_dropbox_addresses.ipynb) stitches all together.
