@@ -1,7 +1,7 @@
 # SB_202_analysis
-SB 202 is the bill passed by Georgia's legislature in 2021 that made major changes to how elections are run in the state. NPR parnters with WABE and Georgia Public Broadcasting to quantify how these changes affect different groups of voters.<br>
+SB 202 is the bill passed by Georgia's legislature in 2021 that made major changes to how elections are run in the state. NPR parntered with WABE and Georgia Public Broadcasting to quantify how these changes affect different groups of voters.<br>
 
-The first measure we focus on is drop boxes. First came into use in the 2020 general election, drop boxes was an important way to vote for Georgians and also has been subject to much controversy and conspiracy theories. SB 202 limited how many drop boxes each county can deploy as well as the hours they are available. This analysis focuses on geographical access - specifically, for all registered voters in 2022, how much time are they taking to travel to a drop box in 2022 versus 2020?<br>
+The first measure we focus on is drop boxes. First came into use in the 2020 general election, drop boxes was an important way to vote for Georgians and also has been the  subject of much controversy and conspiracy theories. SB 202 limited how many drop boxes each county can deploy as well as the hours they are available. This analysis focuses on geographical access - specifically, for all registered voters in 2022, how much time are they taking to travel to a drop box in 2022 versus 2020?<br>
 
 Data Sources:<br>
 - Addresses of drop boxes in 2020 general election, acquired through going through ballot transfer forms; address of drop boxes in 2021 primary election and 2022 primary election, shared by Georgia's Secretary of State;
